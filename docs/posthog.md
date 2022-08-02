@@ -65,3 +65,18 @@ In both Line 3 and Line 15, the values "hostname" and "service.beta.kubernetes.i
 ```shell
 helm repo add posthog https://posthog.github.io/charts-clickhouse/
 ```
+
+6. Update the repository
+
+```shell
+helm repo update
+```
+
+7. Update the following command with your custom DNS addresses which point you towards the DNS server. These domain values must be the same as provided in the Step 2:
+
+```shell
+helm upgrade -f values.yaml --timeout 20m --namespace posthog posthog posthog/posthog --atomic --wait --wait-for-jobs --debug
+```
+
+The above command will automatically generate sort of an IP address for you.
+
