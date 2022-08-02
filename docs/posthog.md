@@ -78,3 +78,12 @@ helm upgrade -f values.yaml --timeout 20m --namespace posthog posthog posthog/po
 
 The above command will automatically generate sort of an IP address for you.
 
+8. Executing the above command will generate an IP on your DigitalOcean Dashboard under the “Directs to” drop down menu. Now, we have to just point that IP towards our desired Kubernetes cluster.
+
+9. Finally, executing the following command will convert the IP into a secure HTTPS URL.
+
+```shell
+kubectl apply -f cluster-issuer.yaml
+```
+
+
