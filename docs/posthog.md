@@ -1,20 +1,12 @@
 ## Posthog for your application
 
-### Prerequisites for setup on server
+### Prerequisites for setup on Digital Ocean
 
 1. Application Domain and DNS details
 2. Digital Ocean account
 3. Some knowledge of Kubernetes
 4. Helm package manager
 5. Operating System - Windows/Linux/Mac OS
-
-### Posthog self-setup instructions
-
-Self hosting and running a production environment of Posthog is one of the most important steps to take as a developer. The following docs go through how to Self host an instance of Posthog and various deployment options it provides. To view all these steps, click [here](https://posthog.com/docs/self-host).
-
-### Setting up environment variables for your application
-
-In posthog, you can set the values through both Instance settings as well as Environment variables. Though Instance settings is recommended for most applications, you can also set the values for your application using Environment variables. There are various environment variables you can set for your application instance. To get a detailed explanation of what each variable does and how to configure it, click [here](https://posthog.com/docs/self-host/configure/environment-variables).
 
 ## Setting up Posthog on Digital Ocean:
 
@@ -86,5 +78,15 @@ The above command will automatically generate sort of an IP address for you.
 ```shell
 kubectl apply -f cluster-issuer.yaml
 ```
+
+### Posthog self-setup instructions
+
+Self hosting and running a production environment of Posthog is one of the most important steps to take as a developer. The following docs go through how to Self host an instance of Posthog and various deployment options it provides. To view all these steps, click [here](https://posthog.com/docs/self-host).
+
+### Setting up environment variables for your application
+
+In posthog, you can set the values through both Instance settings as well as Environment variables. Though Instance settings is recommended for most applications, you can also set the values for your application using Environment variables. There are various environment variables you can set for your application instance. To get a detailed explanation of what each variable does and how to configure it, click [here](https://posthog.com/docs/self-host/configure/environment-variables).
+
+
 
 
