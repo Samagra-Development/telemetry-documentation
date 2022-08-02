@@ -1,12 +1,3 @@
----
-type: landing
-directory: developer-docs/telemetry
-title: Telemetry
-page_title: Telemetry
-description: Telemetry Overview
-published: true
-allowSearch: true
---- 
 ## Overview 
 
 Telemetry is an user behavior analytics tool that helps you understand how different users interact with your application. To start using Telemetry, you just need to configure the telemetry code in your application front-end. After the code is set up, Telemetry will start capturing and analyzing the user activity on your application.

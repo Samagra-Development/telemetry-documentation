@@ -1,12 +1,3 @@
----
-type: landing
-directory: developer-docs/telemetry
-title: Telemetry
-page_title: Telemetry
-description: Posthog Setup
-published: true
-allowSearch: true
---- 
 ## Posthog for your application
 
 ### Prerequisites for setup on server
