@@ -57,3 +57,11 @@ ingress-nginx:
 ```
 
 In both Line 3 and Line 15, the values "hostname" and "service.beta.kubernetes.io/do-loadbalancer-hostname" are updated to include the organization domain names.
+
+4. The next step is to download the Config file for your cluster. This config file is present inside the Overview section under the "Configuration" option.
+
+5. Add the path link for the Config file inside the following the following command:
+
+```shell
+helm repo add posthog https://posthog.github.io/charts-clickhouse/
+```
