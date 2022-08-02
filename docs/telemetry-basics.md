@@ -6,7 +6,7 @@ Some basic concepts related to Telemetry:
 
     When a user comes to a mobile app or web app, the interaction they do while they are on the app, can be tracked and captured to identify user behavior.
 
-    For example we can capture:
+    For example, we can capture:
      - Time spent on a particular section
      - Buttons clicked, links clicked etc.
 
