@@ -87,11 +87,4 @@ PostHog is an open-source product analytics suite, built for engineers that can 
 
 Posthog is used as an Analytic tool for Telemetry samagra.  PostHog is designed to give you every tool you need to understand user behavior, create hypothesis and release changes to make your product more successful. To know more about Posthog and how to set it up, check out their documentation [here](https://posthog.com/docs).
 
-## Telemetry Basics
-
-Some basic concepts related to Telemetry:
-
-- [Event Specifications for Telemetry events](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/#events-specs)
-- [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
-- [Consuming Telemetry data](http://docs.sunbird.org/latest/developer-docs/telemetry/consuming_telemetry/)
 
