@@ -1,4 +1,4 @@
-Overview - What is telemetry, Why is it used
+[Overview - What is telemetry, Why is it used?](overview-telemetry.md) 
 
 - [What specs of telemetry Samagra follows -  Sunbird telemtry specifications](/docs/overview-telemetry.md#specifications-followed-by-telemetry-samagra)
 - [What is the analytics tool we use for telemetry - Posthog](/docs/overview-telemetry.md#posthog---analytics-tool-we-use-for-telemetry)
@@ -15,14 +15,9 @@ Overview - What is telemetry, Why is it used
         - Consuming telemetry data
 
 - How to setup telemetry for your Application
-    - Step 1: Define events - What data do you want to capture
-      (Share an excel sheet sample of events, brief details need to be mentioned about each column and what is expected)
+    - Step 1: Define events - What data do you want to capture?
     - Step 2: Include Events in your code
-    - Step 3: Installation of Telemetry [Is this step even relevant?]
-        - Pre-requisites
-        - Installation steps
-        - Post-installation (how to test your telemetry setup)
-
+    
 - Posthog for your application
     - Prerequisites for setup on server
     - Posthog self-setup instructions 
