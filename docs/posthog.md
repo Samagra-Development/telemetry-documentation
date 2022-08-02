@@ -79,13 +79,33 @@ The above command will automatically generate sort of an IP address for you.
 kubectl apply -f cluster-issuer.yaml
 ```
 
-### Posthog self-setup instructions
+10. Check the host
+
+```shell
+bash getHost.sh
+```
+
+## Posthog self-setup instructions
 
 Self hosting and running a production environment of Posthog is one of the most important steps to take as a developer. The following docs go through how to Self host an instance of Posthog and various deployment options it provides. To view all these steps, click [here](https://posthog.com/docs/self-host).
 
-### Setting up environment variables for your application
+## Setting up environment variables for your application
 
 In posthog, you can set the values through both Instance settings as well as Environment variables. Though Instance settings is recommended for most applications, you can also set the values for your application using Environment variables. There are various environment variables you can set for your application instance. To get a detailed explanation of what each variable does and how to configure it, click [here](https://posthog.com/docs/self-host/configure/environment-variables).
+
+## Using Posthog
+
+### 1. How to View 
+
+To view various events and get insights related to how your applications is performing you can navigate to the Posthog dashboard. In the dashboard, you can view what events your visitors are performing and get a detailed performance review for your application. For example:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/77961530/182447548-08dc8314-3a57-4153-a620-0c10787226e8.png" width="600"/>
+</p>
+
+### 2. What Can be Done?
+
+
 
 
 
