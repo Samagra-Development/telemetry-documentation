@@ -1,6 +1,6 @@
 ## Posthog for your application
 
-ostHog is an open-source product analytics suite, built for engineers that can automatically track every event on your website or app. Based on these events, it can help you understand your users and how to improve your product. 
+PostHog is an open-source product analytics suite, built for engineers that can automatically track every event on your website or app. Based on these events, it can help you understand your users and how to improve your product. 
 
 An organization can have multiple mobile and web-apps running at the same time. We can have one Posthog setup configured for all these different applications within the organization. Posthog will capture the events for all the applications and separate them within different sections.
 
