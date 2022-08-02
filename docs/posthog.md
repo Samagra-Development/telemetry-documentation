@@ -55,3 +55,5 @@ ingress-nginx:
         service.beta.kubernetes.io/do-loadbalancer-hostname: telemetry.shikshaplatform.io
         service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
 ```
+
+In both Line 3 and Line 15, the values "hostname" and "service.beta.kubernetes.io/do-loadbalancer-hostname" are updated to include the organization domain names.
