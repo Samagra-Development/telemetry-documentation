@@ -26,9 +26,7 @@ Follow these steps in order to [Set up DNS and Digital Ocean](https://docs.digit
 
 The following image shows what a sample kubernetes cluster looks like:
 
-<p align="middle">
-<img src="telemetry-images/sample-clusters.png" width="600"/> 
-</p>
+![cluster](./telemetry-images/sample-clusters.png)
 
 2. Once you create a Cluster, click on the newly created cluster. Inside the cluster, Navigate to the "Marketplace" section. Under the "Install Kubernetes 1-Click Apps" search Posthog. The following drop down list should show Posthog, click on the option to download Posthog for your application cluster instance.
 
