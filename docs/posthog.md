@@ -28,8 +28,8 @@ The following image shows what a sample kubernetes cluster looks like:
 <img src="https://user-images.githubusercontent.com/77961530/182447425-a1a55f5b-7190-4967-87be-7ae50e2a492d.png" width="600"/>
 
 2. Once you create a Cluster, click on the newly created cluster. Inside the cluster, Navigate to the "Marketplace" section. Under the "Install Kubernetes 1-Click Apps" search Posthog. The following drop down list should show Posthog, click on the option to download Posthog for your application cluster instance.
-3. 
-<img src="https://user-images.githubusercontent.com/77961530/182447548-08dc8314-3a57-4153-a620-0c10787226e8.png" width="600"/>
+
+<img src="https://user-images.githubusercontent.com/77961530/182447548-08dc8314-3a57-4153-a620-0c10787226e8.png" width="600" align="middle"/>
 
 3. For the next step, you have to modify the "values.yml" file with your custom domain names.
 
