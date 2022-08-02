@@ -16,7 +16,42 @@ Self hosting and running a production environment of Posthog is one of the most 
 
 In posthog, you can set the values through both Instance settings as well as Environment variables. Though Instance settings is recommended for most applications, you can also set the values for your application using Environment variables. There are various environment variables you can set for your application instance. To get a detailed explanation of what each variable does and how to configure it, click [here](https://posthog.com/docs/self-host/configure/environment-variables).
 
-## Using Posthog
+## Setting up Posthog on Digital Ocean:
 
-1. How to view the Posthog dashboard?
+First, we have to add the website DNS addresses to the Digital Ocean account. To do that, you just have to point the DNS nodes in the domain on the DigitalOcean dashboard, Digital ocean has some DNS points such as DNS1, DNS2, DNS3. You simply have to put your website DNS values into these textfields.
 
+Follow these steps in order to [Set up DNS and Digital Ocean](https://docs.digitalocean.com/products/networking/dns/quickstart/). To verify the setup, click [here](https://dnschecker.org/)
+
+1. Create a Kubernetes Cluster with at least 4 nodes. If you have a Digital Ocean account, just click [here](https://cloud.digitalocean.com/kubernetes/clusters/) to directly create a new cluster. Provide a name to the cluster. Optionally, you can provide some tags for your cluster as well.
+
+The following image shows what a sample kubernetes cluster looks like:
+
+<p align="middle">
+<img src="telemetry-images/sample-clusters.png" width="600"/> 
+</p>
+
+2. Once you create a Cluster, click on the newly created cluster. Inside the cluster, Navigate to the "Marketplace" section. Under the "Install Kubernetes 1-Click Apps" search Posthog. The following drop down list should show Posthog, click on the option to download Posthog for your application cluster instance.
+
+<p align="middle">
+<img src="telemetry-images/posthog-download.png" width="600"/> 
+</p>
+
+3. For the next step, you have to modify the "values.yml" file with your custom domain names.
+
+```yaml
+cloud: "do"
+ingress:
+  hostname: telemetry.shikshaplatform.io
+  nginx:
+    enabled: true
+cert-manager:
+  enabled: true
+ingress-nginx:
+  controller:
+    config:
+      use-proxy-protocol: true
+    service:
+      annotations:
+        service.beta.kubernetes.io/do-loadbalancer-hostname: telemetry.shikshaplatform.io
+        service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
+```

@@ -22,9 +22,7 @@
     - Prerequisites for setup on server
     - Posthog self-setup instructions 
     - Setting up environment variables for your application 
-    - Using posthog
-        - How to view 
-        - What all can be done? 
-        - Example analytics 
+    - Setting up Posthog on Digital Ocean: 
+        - 
 
 - FAQ
