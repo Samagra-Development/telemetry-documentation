@@ -122,3 +122,5 @@ To view various events and get insights related to how your applications is perf
 <p align="center">
 <img width="600" alt="test-tools" src="https://user-images.githubusercontent.com/77961530/182459414-89957ce6-c818-441b-9eec-ded3e5250ce4.png">
 </p>
+
+Along with this, Posthog also allows service such as Event pipelines, Self hosting, Data warehouses, Various APIs to integrate and configure the event pipelines. To see them in detail, click [here](https://posthog.com/?utm_source=kdnuggets&utm_medium=sponsored-blog&utm_campaign=23-sept-2021)
