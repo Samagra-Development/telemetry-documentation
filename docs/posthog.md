@@ -97,7 +97,7 @@ In posthog, you can set the values through both Instance settings as well as Env
 
 ### 1. How to View 
 
-To view various events and get insights related to how your applications is performing you can navigate to the Posthog dashboard. After connecting your application with Posthog and configuring the relevant settings, you can view the dashboard by clicking on the created cluster. In the dashboard, you can view what events your visitors are performing and get a detailed performance review for your application. For example:
+To view various events and get insights related to how your applications is performing you can navigate to the Posthog dashboard and under "Insights" section. After connecting your application with Posthog and configuring the relevant settings, you can view the dashboard by clicking on the created cluster. In Insights, you can view what events your visitors are performing and get a detailed performance review for your application. For example:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/77961530/182447548-08dc8314-3a57-4153-a620-0c10787226e8.png" width="600"/>
@@ -107,8 +107,18 @@ To view various events and get insights related to how your applications is perf
 
 1. Session recording - Session Recording allows you to record users navigating through your website and play back the individual sessions to watch how real users use your product. You can get various details such as duration, start point, end point and you can also replay these recordings in order to understand if the visitors are spending unusual amount of time stuck in a particular section on a website. These details help you improve the overall quality of your application. This is how the recorded sessions looks like:
 
+<p align="center">
+<img width="600" alt="recording" src="https://user-images.githubusercontent.com/77961530/182457927-91e9a9bf-9a02-4e0e-ac09-68b1b74a0705.png">
+</p>
 
+2. Feature flags - Feature Flags allow you to safely deploy and roll back new features. This means you can ship the code for new features and then roll them out to your users in a managed way. If something has goes wrong, you can then roll back without having to re-deploy your application. Feature Flags can also help you control access to certain parts of your product, such as only showing paid features to users with an active subscription.
 
+<p align="center">
+<img width="600" alt="feature-flags" src="https://user-images.githubusercontent.com/77961530/182458542-30de04ee-39fd-44fa-9ee7-4b5d23af0238.png">
+</p>
 
+3. Posthog A/B testing - It allows us to compare two versions of something to figure out which performs better. It’s most often associated with websites and apps. Posthog provides us with its own Experimentation suite to see the performance of various modules. To see how it works, click [here](https://posthog.com/product/experimentation-suite). Following image shows some posthog A/B testing tools:
 
-
+<p align="center">
+<img width="600" alt="test-tools" src="https://user-images.githubusercontent.com/77961530/182459414-89957ce6-c818-441b-9eec-ded3e5250ce4.png">
+</p>
