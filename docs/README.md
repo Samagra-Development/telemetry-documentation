@@ -10,7 +10,7 @@
     - [How the analytics is done on posthog](overview-telemetry.md#how-the-analytics-is-done-on-posthog)
 
 - [Telemetry basics](telemetry-basics.md) 
-    - Events specs
+    - [Events specs](telemetry-basics.md#telemetry-basics)
     - Sending telemetry
     - Consuming telemetry data
 
