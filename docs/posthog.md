@@ -97,11 +97,13 @@ In posthog, you can set the values through both Instance settings as well as Env
 
 ### 1. How to View 
 
-To view various events and get insights related to how your applications is performing you can navigate to the Posthog dashboard. In the dashboard, you can view what events your visitors are performing and get a detailed performance review for your application. For example:
+To view various events and get insights related to how your applications is performing you can navigate to the Posthog dashboard. After connecting your application with Posthog and configuring the relevant settings, you can view the dashboard by clicking on the created cluster. In the dashboard, you can view what events your visitors are performing and get a detailed performance review for your application. For example:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/77961530/182447548-08dc8314-3a57-4153-a620-0c10787226e8.png" width="600"/>
 </p>
+
+
 
 ### 2. What Can be Done?
 
