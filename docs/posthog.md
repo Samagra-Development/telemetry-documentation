@@ -2,11 +2,11 @@
 
 ### Prerequisites for setup on server
 
-1. Posthog Account
-2. A self-hosted PostHog instance (or a local development environment)
-3. Some knowledge of JavaScript (or TypeScript)
-4. Django
-5. Prefferred OS - Linux
+1. Application Domain and DNS details
+2. Digital Ocean account
+3. Some knowledge of Kubernetes
+4. Helm package manager
+5. Operating System - Windows/Linux/Mac OS
 
 ### Posthog self-setup instructions
 
