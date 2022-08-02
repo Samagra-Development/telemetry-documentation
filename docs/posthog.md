@@ -100,12 +100,12 @@ In posthog, you can set the values through both Instance settings as well as Env
 To view various events and get insights related to how your applications is performing you can navigate to the Posthog dashboard. After connecting your application with Posthog and configuring the relevant settings, you can view the dashboard by clicking on the created cluster. In the dashboard, you can view what events your visitors are performing and get a detailed performance review for your application. For example:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/77961530/182456196-fb855ea3-f5c4-43d4-a4fb-0aed1210aacc.jpg" width="600"/>
+<img src="https://user-images.githubusercontent.com/77961530/182447548-08dc8314-3a57-4153-a620-0c10787226e8.png" width="600"/>
 </p>
 
-
-
 ### 2. What Can be Done?
+
+1. Session recording - Session Recording allows you to record users navigating through your website and play back the individual sessions to watch how real users use your product. You can get various details such as duration, start point, end point and you can also replay these recordings in order to understand if the visitors are spending unusual amount of time stuck in a particular section on a website. These details help you improve the overall quality of your application. This is how the recorded sessions looks like:
 
 
 
