@@ -3,26 +3,28 @@
 - [What specs of telemetry Samagra follows -  Sunbird telemtry specifications](/docs/overview-telemetry.md#specifications-followed-by-telemetry-samagra)
 - [What is the analytics tool we use for telemetry - Posthog](/docs/overview-telemetry.md#posthog---analytics-tool-we-use-for-telemetry)
 - [Use cases of saving telemetry data](/docs/overview-telemetry.md#use-cases-of-saving-telemetry-data)
-    - e-Samwaad App
-    - Why do we want to capture data
-    - What data do we want to capture
-    - How we are capturing 
-    - How the analytics is done on posthog
+    - [e-Samwaad App](overview-telemetry.md#1-e-samwad-app)
+    - [Why do we want to capture data](overview-telemetry.md#why-do-we-want-to-capture-data)
+    - [What data do we want to capture](overview-telemetry.md#what-data-do-we-want-to-capture)
+    - [How we are capturing](overview-telemetry.md#how-are-we-capturing-this-data) 
+    - [How the analytics is done on posthog](overview-telemetry.md#how-the-analytics-is-done-on-posthog)
 
-- Telemetry basics 
-        - Events specs
-        - Sending telemetry
-        - Consuming telemetry data
+- [Telemetry basics](telemetry-basics.md) 
+    - Events specs
+    - Sending telemetry
+    - Consuming telemetry data
 
 - How to setup telemetry for your Application
     - Step 1: Define events - What data do you want to capture?
     - Step 2: Include Events in your code
     
-- Posthog for your application
-    - Prerequisites for setup on server
-    - Posthog self-setup instructions 
-    - Setting up environment variables for your application 
-    - Setting up Posthog on Digital Ocean: 
-        - 
+- [Posthog for your application](posthog.md)
+    - [Prerequisites for setup on Digital Ocean](posthog.md#prerequisites-for-setup-on-digital-ocean)
+    - [Setting up Posthog on Digital Ocean](posthog.md#setting-up-posthog-on-digital-ocean) 
+    - [Posthog self-setup instructions](posthog.md#posthog-self-setup-instructions) 
+    - [Setting up environment variables for your application](posthog.md#setting-up-environment-variables-for-your-application) 
+    - [Using Posthog](posthog.md#using-posthog)
+      - [How to view & Example Analytics](posthog.md#1-how-to-view)
+      - [What can be done?](posthog.md#2-what-can-be-done) 
 
 - FAQ
