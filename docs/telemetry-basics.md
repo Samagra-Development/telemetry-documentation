@@ -23,7 +23,9 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
       <img src = "https://user-images.githubusercontent.com/77961530/182592879-61abae8f-a984-4b7e-a2d8-c60b79dd97db.png" width="800"/>
       </p>
 
-    - Define events for each page
+    - Define events for each page: Define events for each page and the possible events that are going to be captured on that page
+
+    
 
     - Link to the excel sheet for reference
      
