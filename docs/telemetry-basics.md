@@ -18,9 +18,10 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
     Step 2: Define each page on the website, and create events sheet for each page and events on the page that you want to capture.
       Defining events for the documentaion page:
 
-       - Define page names: Here we have defined all the pages and sub-pages of Telemetry documentation
-        
-
+   - Define page names: Here we have defined all the pages and sub-pages of Telemetry documentation
+      <p align="center">
+      <img src = "https://user-images.githubusercontent.com/77961530/182591979-5e9d0cd2-bb56-4610-9c4f-d6ccdd7bbd56.png" width="600"/>
+      </p>
 
        - Define events for each page
 
