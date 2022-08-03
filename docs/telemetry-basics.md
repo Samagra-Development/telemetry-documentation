@@ -25,9 +25,10 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
 
     - Define events for each page: Define events for each page and the possible events that are going to be captured on that page
 
-    
 
-    - Link to the excel sheet for reference
+
+    - The following sheet defines some sample events for the Telemetry documentation site. Click [here](https://docs.google.com/spreadsheets/d/1PcWibGk6fK25lTGAJB-irr8OsNpHhCa0o4gB4UycWN4/edit#gid=187433592) to view.
+
      
 - [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
 
