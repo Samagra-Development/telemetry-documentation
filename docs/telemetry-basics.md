@@ -20,7 +20,7 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
 
    - Define page names: Here we have defined all the pages and sub-pages of Telemetry documentation
       <p align="center">
-      <img src = "https://user-images.githubusercontent.com/77961530/182591979-5e9d0cd2-bb56-4610-9c4f-d6ccdd7bbd56.png" width="600"/>
+      <img src = "https://user-images.githubusercontent.com/77961530/182591979-5e9d0cd2-bb56-4610-9c4f-d6ccdd7bbd56.png" width="800"/>
       </p>
 
     - Define events for each page
