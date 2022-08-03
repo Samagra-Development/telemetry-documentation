@@ -14,8 +14,8 @@
     - [Sending telemetry](telemetry-basics.md#sending-telemetryhttpdocssunbirdorglatestdeveloper-docstelemetrysendingtelemetry)
     - [Consuming telemetry data](telemetry-basics.md#consuming-telemetry-datahttpdocssunbirdorglatestdeveloper-docstelemetryconsumingtelemetry)
 
-- How to setup telemetry for your Application
-    - Step 1: Define events - What data do you want to capture?
+- [How to setup telemetry for your Application](setup-telemetry)
+    - [Step 1: Define events - What data do you want to capture?](setup-telemetry.md#1-define-events-for-your-application)
     - Step 2: Include Events in your code
     
 - [Posthog for your application](posthog.md)
