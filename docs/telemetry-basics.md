@@ -17,10 +17,13 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
 
     Step 2: Define each page on the website, and create events sheet for each page and events on the page that you want to capture.
       Defining events for the documentaion page:
+
        - Define page names
         <Insert table / Image of table>
+
        - Define events for each page
         <Insert table / Image of table>
+        
        - Link to the excel sheet for reference
      
 - [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
