@@ -23,9 +23,9 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
       <img src = "https://user-images.githubusercontent.com/77961530/182591979-5e9d0cd2-bb56-4610-9c4f-d6ccdd7bbd56.png" width="600"/>
       </p>
 
-       - Define events for each page
+    - Define events for each page
 
-       - Link to the excel sheet for reference
+    - Link to the excel sheet for reference
      
 - [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
 
