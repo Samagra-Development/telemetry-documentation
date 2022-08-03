@@ -85,6 +85,6 @@ Below listed are some of the event specifications. You can view all of them in m
 
 PostHog is an open-source product analytics suite, built for engineers that can automatically track every event on your website or app. Based on these events, it can help you understand your users and how to improve your product.
 
-Posthog is used as an Analytic tool for Telemetry samagra.  PostHog is designed to give you every tool you need to understand user behavior, create hypothesis and release changes to make your product more successful. To know more about Posthog and how to set it up, check out their documentation [here](https://posthog.com/docs).
+Posthog is used as an Analytic tool for Telemetry samagra.  PostHog is designed to give you every tool you need to understand user behavior, create hypothesis and release changes to make your product more successful. To know more about Posthog and how to set it up and integrate it with your application, check out their documentation [here](https://posthog.com/docs/integrate).
 
 
