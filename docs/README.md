@@ -11,8 +11,8 @@
 
 - [Telemetry basics](telemetry-basics.md) 
     - [Events specs](telemetry-basics.md#telemetry-basics)
-    - Sending telemetry
-    - Consuming telemetry data
+    - [Sending telemetry](telemetry-basics.md#sending-telemetryhttpdocssunbirdorglatestdeveloper-docstelemetrysendingtelemetry)
+    - [Consuming telemetry data](telemetry-basics.md#consuming-telemetry-datahttpdocssunbirdorglatestdeveloper-docstelemetryconsumingtelemetry)
 
 - How to setup telemetry for your Application
     - Step 1: Define events - What data do you want to capture?

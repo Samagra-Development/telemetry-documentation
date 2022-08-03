@@ -36,6 +36,6 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
     - The following sheet defines some sample events for the Telemetry documentation site. Click [here](https://docs.google.com/spreadsheets/d/1PcWibGk6fK25lTGAJB-irr8OsNpHhCa0o4gB4UycWN4/edit#gid=187433592) to view that file.
 
      
-- [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
+- ### [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
 
-- [Consuming Telemetry data](http://docs.sunbird.org/latest/developer-docs/telemetry/consuming_telemetry/)
+- ### [Consuming Telemetry data](http://docs.sunbird.org/latest/developer-docs/telemetry/consuming_telemetry/)
