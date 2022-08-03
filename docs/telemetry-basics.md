@@ -6,20 +6,23 @@ Let's take an example of this documentation site and try to understand what tele
 
 - [Event Specifications for Telemetry events](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/#events-specs)
 
-Step 1: Identify the telemetry events you want to capture.
-Events we can capture for this documentation site.
+     Step 1: Identify the telemetry events you want to capture.
+     Events we can capture for this documentation site.
 
     - Average time spent by the user in a session - This will help understand how much time a user typically takes to read and understand about telemtry
+
     - Time spent on a particular section - This will help understand, which sections are more useful or requires more clarificaiton
+
     - Links clicked - This will help keep track of which hyperlinks are most sought after, so we can focus on making that section more relevant
 
-Step 2: Define each page on the website, and create events sheet for each page and events on the page that you want to capture.
-Defining events for the documentaion page:
-     - Define page names
-     <Insert table / Image of table>
-     - Define events for each page
-     <Insert table / Image of table>
-     - Link to the excel sheet for reference
+      Step 2: Define each page on the website, and create events sheet for each page and events on the page that you want to capture.
+      Defining events for the documentaion page:
+       - Define page names
+        <Insert table / Image of table>
+       - Define events for each page
+        <Insert table / Image of table>
+       - Link to the excel sheet for reference
      
 - [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
+
 - [Consuming Telemetry data](http://docs.sunbird.org/latest/developer-docs/telemetry/consuming_telemetry/)

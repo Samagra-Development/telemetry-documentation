@@ -54,7 +54,6 @@ Listed in the following excel file are some of the use cases where Telemetry was
 
  Example for how we are capturing and saving the telemetry data for the e-Samwad android app:
 
-<!-- ![excel](./telemetry-images/excel-image.png) -->
 <p align="middle">
 <img src="telemetry-images/excel-image.png" width="700" height="400"/> 
 </p>
@@ -68,8 +67,6 @@ Listed in the following excel file are some of the use cases where Telemetry was
 <p align="middle">
 <img src="telemetry-images/posthog-sample.jpg" width="700" height="400"/> 
 </p>
-
-<!-- ![analytics](./telemetry-images/posthog-sample.png) -->
 
 ## Specifications Followed by Telemetry Samagra:
 
