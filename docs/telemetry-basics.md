@@ -2,7 +2,7 @@
 
 As discussed in the overview, there are a lot of user behaviour data that is generated on any web app pr mobile apps, when a user comes on the home page and navigates through the app. These events are captured in the background without explicitly informing the user. Telemetry provide inputs to understand user behaviour patterns on any website or app.
 
-Let's take an example of this documentation site and try to understand what telementry we can capture and how to go about different steps in the process.
+Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/telemetry/overview/) documentation site and try to understand what telementry we can capture and how to go about different steps in the process.
 
 - [Event Specifications for Telemetry events](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/#events-specs)
 

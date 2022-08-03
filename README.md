@@ -1,7 +1,7 @@
 [Overview - What is telemetry, Why is it used?](overview-telemetry.md) 
 
 - [What specs of telemetry Samagra follows -  Sunbird telemtry specifications](/docs/overview-telemetry.md#specifications-followed-by-telemetry-samagra)
-- [What is the analytics tool we use for telemetry - Posthog](/docs/overview-telemetry.md#posthog---analytics-tool-we-use-for-telemetry)
+- [Analytics tool we use for telemetry - Posthog](/docs/overview-telemetry.md#posthog---analytics-tool-we-use-for-telemetry)
 - [Use cases of saving telemetry data](/docs/overview-telemetry.md#use-cases-of-saving-telemetry-data)
     - [e-Samwaad App](overview-telemetry.md#1-e-samwad-app)
     - [Why do we want to capture data](overview-telemetry.md#why-do-we-want-to-capture-data)
