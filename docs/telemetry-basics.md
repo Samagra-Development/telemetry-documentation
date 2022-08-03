@@ -4,7 +4,7 @@ As discussed in the overview, there are a lot of user behaviour data that is gen
 
 Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/telemetry/overview/) documentation site and try to understand what telementry we can capture and how to go about different steps in the process.
 
-- [Event Specifications for Telemetry events](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/#events-specs)
+- ### [Event Specifications for Telemetry events](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/#events-specs)
 
      Step 1: Identify the telemetry events you want to capture.
      Events we can capture for this documentation site.
