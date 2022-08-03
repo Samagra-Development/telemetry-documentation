@@ -15,7 +15,7 @@ Let's take an example of [this](http://docs.sunbird.org/latest/developer-docs/te
 
     - Links clicked - This will help keep track of which hyperlinks are most sought after, so we can focus on making that section more relevant
 
-      Step 2: Define each page on the website, and create events sheet for each page and events on the page that you want to capture.
+    Step 2: Define each page on the website, and create events sheet for each page and events on the page that you want to capture.
       Defining events for the documentaion page:
        - Define page names
         <Insert table / Image of table>
