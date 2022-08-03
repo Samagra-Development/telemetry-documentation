@@ -1,17 +1,24 @@
-## Telemetry Basics
+## Telemetry Basics (with example)
 
-Some basic concepts related to Telemetry:
+As discussed in the overview, there are a lot of user behaviour data that is generated on any web app pr mobile apps, when a user comes on the home page and navigates through the app. These events are captured in the background without explicitly informing the user. Telemetry provide inputs to understand user behaviour patterns on any website or app.
+
+Let's take an example of this documentation site and try to understand what telementry we can capture and how to go about different steps in the process.
 
 - [Event Specifications for Telemetry events](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/#events-specs)
 
-    When a user comes to a mobile app or web app, the interaction they do while they are on the app, can be tracked and captured to identify user behavior.
+Step 1: Identify the telemetry events you want to capture.
+Events we can capture for this documentation site.
+     - Overall time spent by the user in a session - This will help understand how much time a user typically takes to read and understand about telemtry 
+     - Time spent on a particular section - This will help understand, which sections are more useful or requires more clarificaiton
+     - Links clicked - This will help keep track of which hyperlinks are most sought after, so we can focus on making that section more relevant
 
-    For example, we can capture:
-     - Time spent on a particular section
-     - Buttons clicked, links clicked etc.
-
-These events are captured in the background without explicitly informing the user.
-
-
+Step 2: Define each page on the website, and create events sheet for each page and events on the page that you want to capture.
+Defining events for the documentaion page:
+     - Define page names
+     <Insert table / Image of table>
+     - Define events for each page
+     <Insert table / Image of table>
+     - Link to the excel sheet for reference
+     
 - [Sending Telemetry](http://docs.sunbird.org/latest/developer-docs/telemetry/sending_telemetry/)
 - [Consuming Telemetry data](http://docs.sunbird.org/latest/developer-docs/telemetry/consuming_telemetry/)
