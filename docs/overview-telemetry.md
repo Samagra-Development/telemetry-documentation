@@ -41,15 +41,17 @@ Listed in the following excel file are some of the use cases where Telemetry was
 
 
    ### What data do we want to capture
-   Essentially, we want to capture every action a visitor makes on your portal from the moment he visits it and to the time he leaves. These actions can be anything such as:
 
+   Essentially, we want to capture every action a visitor makes on the e-Samwad app from the moment he visits it and to the time he leaves. These actions can be anything such as:
+
+   - A Teacher submitting attendance
+   - Total time spent on each module
+   - How many students are actually able to submit assignments
+   - Tracking how much resources are being shared by the teachers and if there arises any problem while sharing these resources
+   - Student opening a chapter selection screen
+   - Teacher/Student logging into the app
+   - Viewing Subject selection screen
    - Clicking on a button
-   - Total time spent
-   - User interactions such as search, zoom, preview, resize etc, 
-   - User responses on polls, questions etc.
-   - Interrupts triggered during user activity for eg, mobile app sent to background, call on the mobile etc.
-   - Capture what content the user is sharing from your portal. For eg, link, file, telemetry data etc.
-   - Data related to user feedback
 
   ### How are we capturing this Data?
   
