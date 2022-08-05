@@ -157,7 +157,7 @@ Listed in the following excel file are some of the use cases where Telemetry was
  
  PostHog can be deployed on your own infrastructure and provides a large set of tools to help improve your product, such as session recording, heatmaps, and feature flags, that are unique to PostHog in the product analytics space. To integrate Posthog with your application backend and enable Analytics services, follow these [steps](https://posthog.com/docs/integrate).
 
- Following example shows a sample Posthog analytics dashboard: 
+ Following example shows the e-Samwad Posthog analytics dashboard: 
 
 <p align="middle">
 <img src="https://user-images.githubusercontent.com/77961530/183069921-f2ad1069-b73b-4b67-9140-b9c0d2482c49.png" width="700"/> 
