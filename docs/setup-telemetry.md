@@ -12,6 +12,8 @@ If you are looking to integrate Telemetry with your application, you should foll
 
 ### 2. Include Events in Your Code
 
+### - Mobile Applications:
+
 Following Example shows how events code is integrated into e-Samwad android to capture the user data:
 
 In order to use posthog, we need to integrate the Posthog library into Android Studio. Paste the following code into your android studio 'build.gradle" file:
