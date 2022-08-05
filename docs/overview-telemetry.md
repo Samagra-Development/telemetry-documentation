@@ -58,6 +58,10 @@ Listed in the following excel file are some of the use cases where Telemetry was
 <img src="telemetry-images/excel-image.png" width="700" height="400"/> 
 </p>
 
+<p align="middle">
+<img src="https://user-images.githubusercontent.com/77961530/183051228-fef2ace8-4306-4cdf-9d15-58d3767598e2.png" width="700" height="400"/> 
+</p>
+
  ### How the Analytics is Done on Posthog 
  
  PostHog can be deployed on your own infrastructure and provides a large set of tools to help improve your product, such as session recording, heatmaps, and feature flags, that are unique to PostHog in the product analytics space. To integrate Posthog with your application backend and enable Analytics services, follow these [steps](https://posthog.com/docs/integrate).
