@@ -22,3 +22,30 @@ In order to use posthog, we need to integrate the Posthog library into Android S
 api 'com.posthog.android:posthog:1.1.2'
 ```
 
+Following code sample defines a function called as sendSelectionsSubmittedEvent() which captures an event for submitting Student details on a button click:
+
+```java
+private void sendSelectionsSubmittedEvent() {
+        ArrayList<Cdata> cDataList = new ArrayList<>();
+        cDataList.add(new Cdata("grade", "" + classAdapter.getSelectedItem().getValue()));
+        cDataList.add(new Cdata("subject", subAdapter.getSelectedSubject().getTag()));
+        cDataList.add(new Cdata("s_id", "" + selectedStudent.getId()));
+        Properties properties = PostHogManager.INSTANCE.createProperties("esamwadapp-nipunhp-selectdetails", PostHogEventKt.EVENT_TYPE_USER_ACTION,
+                PostHogEventKt.EID_INTERACT, PostHogManager.INSTANCE.createContext("com.himachal.esamwad", "esamwadapp-nipun-practice", cDataList), new Edata("esamwadapp-nipunhp-selectdetails", "click"), new Object.Builder().type("ui-element").id("nipunhp-submitdetails-next-button").build());
+        PostHogManager.INSTANCE.capture(this, "esamwad-nipunhp-studentdetailssubmit-click", properties);
+    }
+```
+
+Include the following code in your application backend and modify the values according to your app's custom parameters. 
+
+The following line invokes the Posthog manager class and actually captures the event performed in your application user interface.
+
+```java
+Properties properties = PostHogManager.INSTANCE.createProperties("esamwadapp-nipunhp-selectdetails", PostHogEventKt.EVENT_TYPE_USER_ACTION,
+                PostHogEventKt.EID_INTERACT, PostHogManager.INSTANCE.createContext("com.himachal.esamwad", "esamwadapp-nipun-practice", cDataList), new Edata("esamwadapp-nipunhp-selectdetails", "click"), new Object.Builder().type("ui-element").id("nipunhp-submitdetails-next-button").build());
+        PostHogManager.INSTANCE.capture(this, "esamwad-nipunhp-studentdetailssubmit-click", properties);
+```
+
+#### 1. Web Applications:
+
+
