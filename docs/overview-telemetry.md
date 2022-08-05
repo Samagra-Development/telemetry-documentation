@@ -69,7 +69,91 @@ Listed in the following excel file are some of the use cases where Telemetry was
 <img src="https://user-images.githubusercontent.com/77961530/183051228-fef2ace8-4306-4cdf-9d15-58d3767598e2.png" width="700"/> 
 </p>
 
- ### How the Analytics is Done on Posthog 
+  Following example shows how a button click event in e-Sawad is captured:
+
+  ```json
+  {
+    "id": "01826424-c368-0002-e6f9-c8802a6ce088",
+    "timestamp": "2022-08-03T14:38:13.742000+00:00",
+    "event": "esamwad-nipunhp-click",
+    "distinct_id": "110",
+    "properties": {
+        "$app_build": "1200711",
+        "$app_name": "e-Samwad",
+        "$app_namespace": "com.himachal.android.eSamwad",
+        "$app_version": "7.1.1",
+        "$device_id": "9d28979226f439a7",
+        "$device_manufacturer": "OnePlus",
+        "$device_model": "ONEPLUS A6000",
+        "$device_name": "OnePlus6",
+        "$ip": "10.10.10.6",
+        "$lib": "posthog-android",
+        "$lib_version": "1.1.2",
+        "$locale": "en-US",
+        "$network_bluetooth": false,
+        "$network_carrier": "Vodafone IN",
+        "$network_cellular": false,
+        "$network_wifi": true,
+        "$os_name": "Android",
+        "$os_version": "11",
+        "$plugins_deferred": [],
+        "$plugins_failed": [],
+        "$plugins_succeeded": [
+            "GeoIP (3)",
+            "Property Flattener Plugin (4)"
+        ],
+        "$screen_density": 2.625,
+        "$screen_height": 2201,
+        "$screen_width": 1080,
+        "$timezone": "Asia/Kolkata",
+        "$user_agent": "Dalvik/2.1.0 (Linux; U; Android 11; ONEPLUS A6000 Build/RKQ1.201217.002)",
+        "actor": {
+            "id": "6fe47da6-b538-4f7e-b25f-111b5cfaad5e",
+            "type": "school"
+        },
+        "actor.id": "6fe47da6-b538-4f7e-b25f-111b5cfaad5e",
+        "actor.type": "school",
+        "context": {
+            "pdata": {
+                "id": "com.himachal.esamwad",
+                "pid": "esamwadapp-home-screen"
+            },
+            "channel": "eSamwad-android-app",
+            "cdata": [
+                {
+                    "id": "110",
+                    "type": "udise"
+                }
+            ]
+        },
+        "context.cdata.0.id": "110",
+        "context.cdata.0.type": "udise",
+        "context.channel": "eSamwad-android-app",
+        "context.pdata.id": "com.himachal.esamwad",
+        "context.pdata.pid": "esamwadapp-home-screen",
+        "eData": {
+            "pageId": "home-screen",
+            "type": "click"
+        },
+        "eData.pageId": "home-screen",
+        "eData.type": "click",
+        "eid": "INTERACT",
+        "eventType": "User Action",
+        "identifier": "6fe47da6-b538-4f7e-b25f-111b5cfaad5e",
+        "object": {
+            "id": "nipunhp-practice-button",
+            "type": "ui-element"
+        },
+        "object.id": "nipunhp-practice-button",
+        "object.type": "ui-element",
+        "page": "esamwadapp-home-screen",
+        "product": "e-Samwad"
+    },
+    "elements_chain": ""
+}
+  ```
+
+### How the Analytics is Done on Posthog 
  
  PostHog can be deployed on your own infrastructure and provides a large set of tools to help improve your product, such as session recording, heatmaps, and feature flags, that are unique to PostHog in the product analytics space. To integrate Posthog with your application backend and enable Analytics services, follow these [steps](https://posthog.com/docs/integrate).
 
