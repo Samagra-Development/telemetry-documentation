@@ -160,6 +160,8 @@ Posthog is used as an Analytic tool for Telemetry samagra.  PostHog is designed 
 
 ## Specifications Followed by Telemetry Samagra:
 
+Even if we don't follow the Sunbird Telemetry specifications for defining application events, Posthog as an analytics tool is capable enough to analyze these events without the Telemetry specifications. We can normally define the events in an excel sheet and give it to the developer and even without the specifications, Posthog will store and perform analysis on the events captured without any problem.
+
 Currently the Telemetry samagra follows some specifications for their events. These specifications state that all events follow a common data structure, though the event data structure (“edata”) may differ for each event.
 Below listed are some of the event specifications. You can view all of them in more detail [here](https://telemetry.sunbird.org/learn/specification). 
 
