@@ -38,14 +38,13 @@ private void sendSelectionsSubmittedEvent() {
 
 Include the following code in your application backend and modify the values according to your app's custom parameters. 
 
-The following line invokes the Posthog manager class and actually captures the event performed in your application user interface.
-
+The following line invokes the Posthog manager class and actually captures the event performed in your application user interface:
 ```java
 Properties properties = PostHogManager.INSTANCE.createProperties("esamwadapp-nipunhp-selectdetails", PostHogEventKt.EVENT_TYPE_USER_ACTION,
                 PostHogEventKt.EID_INTERACT, PostHogManager.INSTANCE.createContext("com.himachal.esamwad", "esamwadapp-nipun-practice", cDataList), new Edata("esamwadapp-nipunhp-selectdetails", "click"), new Object.Builder().type("ui-element").id("nipunhp-submitdetails-next-button").build());
         PostHogManager.INSTANCE.capture(this, "esamwad-nipunhp-studentdetailssubmit-click", properties);
 ```
 
-#### 1. Web Applications:
+#### 2. Web Applications:
 
 
