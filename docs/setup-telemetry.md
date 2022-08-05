@@ -10,4 +10,4 @@ If you are looking to integrate Telemetry with your application, you should foll
 
 3. Setup Posthog for your organization application. Posthog is where all these Events will be stored and analyzed in order to improve the application quality and the user experience
 
-### 2. Embed the code in your application Front end
+### 2. Embed the Code in Your Application 
