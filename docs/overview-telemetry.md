@@ -59,7 +59,7 @@ Listed in the following excel file are some of the use cases where Telemetry was
   
   The excel sheet should be planned with the developer, who will help the application capture all the “events” every user performs on the e-Samwad app. Everything from what a user clicks to how much time a user spends on various sections of the app will be captured and stored for analysis.
 
- Example for how we are capturing and saving the telemetry data for the e-Samwad android app:
+ Example for how we are defining the telemetry data for the e-Samwad android app:
 
 <p align="middle">
 <img src="telemetry-images/excel-image.png" width="700"/> 
