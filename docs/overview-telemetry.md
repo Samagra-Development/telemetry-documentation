@@ -160,7 +160,7 @@ Listed in the following excel file are some of the use cases where Telemetry was
  Following example shows a sample Posthog analytics dashboard: 
 
 <p align="middle">
-<img src="telemetry-images/posthog-sample.jpg" width="700" height="400"/> 
+<img src="https://user-images.githubusercontent.com/77961530/183069921-f2ad1069-b73b-4b67-9140-b9c0d2482c49.png" width="700"/> 
 </p>
 
 ## Specifications Followed by Telemetry Samagra:
