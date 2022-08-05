@@ -69,7 +69,7 @@ Listed in the following excel file are some of the use cases where Telemetry was
 <img src="https://user-images.githubusercontent.com/77961530/183051228-fef2ace8-4306-4cdf-9d15-58d3767598e2.png" width="700"/> 
 </p>
 
-  Following example shows how a button click event in e-Sawad is captured:
+  Following code example shows how a button click event in e-Sawad is captured:
 
   ```json
   {
