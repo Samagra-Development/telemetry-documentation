@@ -12,7 +12,7 @@ If you are looking to integrate Telemetry with your application, you should foll
 
 ### 2. Include Events in Your Code
 
-### - Mobile Applications:
+#### 1. Mobile Applications:
 
 Following Example shows how events code is integrated into e-Samwad android to capture the user data:
 
