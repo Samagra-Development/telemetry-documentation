@@ -35,7 +35,10 @@ Listed in the following excel file are some of the use cases where Telemetry was
 
    ### Why do we want to Capture data?
    
-   When a website or an application starts receiving traffic on their portals, it becomes important to track how all those users are interacting with your application. The data of how these users interact with your application front-end can then be used to improve the overall quality of the organization application. By analyzing this data, organizations can make their application user friendly and remove any roadblock they might face while surfing your application. 
+   e-Samwad is a mobile app currently used by over 100K+ people all around the world. With so many active users on the app, it becomes important that we maintain the user-friendliness and quality of the app. 
+   
+   The data captured by Telemetry in the form of “events' ' helps the e-Samwad team to consistently make changes to the app that helps increase the quality of the app and provide a smooth user experience to its user base. By analyzing this data, the e-Samwad team removes any roadblock users might face while surfing the android application.
+
 
    ### What data do we want to capture
    Essentially, we want to capture every action a visitor makes on your portal from the moment he visits it and to the time he leaves. These actions can be anything such as:
