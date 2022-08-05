@@ -29,6 +29,8 @@ Sunbird’s telemetry service has Full level telemetry.
 
 ## 1. e-Samwad App
 
+e-Samwad is a flagship program of the Department of Education, Himachal Pradesh to involve parents in child's education by providing them regular updates about child's progress. Through e-samwad, parents receive regular SMS on their mobile phones about student's attendance, examination dates, examination scores, holidays, homework completion and parent teacher meeting on.
+
 Listed in the following excel file are some of the use cases where Telemetry was used to capture user data for the e-Samwad android app. To view it, click [here](https://docs.google.com/spreadsheets/d/1HvryrR95cHRshST3Zg7AsWW4LXQ0h2G2j-3KmaFdcBE/edit#gid=0)
 
    ### Why do we want to Capture data?
