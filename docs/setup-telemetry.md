@@ -10,4 +10,13 @@ If you are looking to integrate Telemetry with your application, you should foll
 
 3. Setup Posthog for your organization application. Posthog is where all these Events will be stored and analyzed in order to improve the application quality and the user experience
 
-### 2. Embed the Code in Your Application 
+### 2. Include Events in Your Code
+
+Following Example shows how events code is integrated into e-Samwad android to capture the user data:
+
+In order to use posthog, we need to integrate the Posthog library into Android Studio. Paste the following code into your android studio 'build.gradle" file:
+
+```
+api 'com.posthog.android:posthog:1.1.2'
+```
+
